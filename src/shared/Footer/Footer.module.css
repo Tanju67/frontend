@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #cd9351;
+  background-color: #3f3d56;
+  padding: 4rem;
+}
+
+.footer a {
+  color: #cd9351;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.footer svg {
+  transition: all 0.3s;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+    gap: 2rem;
+  }
+}

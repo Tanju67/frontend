@@ -1,0 +1,46 @@
+.place {
+  flex: 2;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #666;
+}
+
+.placeBox img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.placeBox h3 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #ec2a51;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  font-style: italic;
+}
+
+.address {
+  font-weight: 600;
+}
+
+.action {
+  display: flex;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.deleteModalText {
+  text-align: center;
+  margin-top: 14rem;
+}
+
+@media only screen and (max-width: 970px) {
+  .placeBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}

@@ -1,0 +1,23 @@
+.columnBox {
+  display: flex;
+  gap: 10px;
+}
+
+.placesContainer {
+  flex: 2;
+  padding: 2rem 8rem;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 970px) {
+  .columnBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .placesContainer {
+    flex: 2;
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+  gap: 2px;
+}
+
+.pagination li {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination li:first-child {
+  width: 10rem;
+}
+.pagination li:last-child {
+  width: 10rem;
+}
+.pagination li:hover {
+  background-color: #413b99;
+}

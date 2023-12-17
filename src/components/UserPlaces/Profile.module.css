@@ -1,0 +1,42 @@
+.profile {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+}
+.profile p {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.8rem;
+}
+.profile p svg {
+  font-size: 2.2rem;
+  color: #6c63ff;
+}
+.imgBox {
+  height: 30rem;
+}
+
+.profile img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.informationBox {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btnBox {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

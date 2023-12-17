@@ -1,0 +1,36 @@
+.register {
+  color: #fff;
+}
+.register a {
+  color: deepskyblue;
+}
+
+.register img {
+  width: 60%;
+}
+
+.register form {
+  flex: 2;
+  background-color: #3f3d56;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.register h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.register p {
+  font-size: 1.4rem;
+
+  margin-bottom: 1rem;
+}
+
+.register button {
+  display: block;
+  width: 100%;
+}

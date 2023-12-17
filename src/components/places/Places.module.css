@@ -1,0 +1,14 @@
+.places {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  background-color: #e0f4ff;
+}
+
+@media only screen and (max-width: 950px) {
+  .places {
+    gap: 3rem;
+  }
+}

@@ -1,0 +1,29 @@
+.placeItem {
+  width: 30%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #666;
+}
+
+@media only screen and (max-width: 970px) {
+  .placeItem {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .placeItem {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .placeItem {
+    width: 100%;
+    flex-direction: column;
+  }
+}

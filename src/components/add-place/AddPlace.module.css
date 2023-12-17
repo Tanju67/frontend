@@ -1,0 +1,37 @@
+.addPlace {
+  color: #fff;
+}
+
+.addPlace a {
+  color: deepskyblue;
+}
+
+.addPlace img {
+  width: 80%;
+}
+
+.addPlace form {
+  flex: 2;
+  background-color: #3f3d56;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.addPlace h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.addPlace p {
+  font-size: 1.4rem;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+.addPlace button {
+  display: block;
+  width: 100%;
+}

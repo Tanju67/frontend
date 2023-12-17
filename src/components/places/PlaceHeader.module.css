@@ -1,0 +1,38 @@
+.userBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.userProfile span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.postDate {
+  font-size: 1.2rem;
+}
+
+.imgBox {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}

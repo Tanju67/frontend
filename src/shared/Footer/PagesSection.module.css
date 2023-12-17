@@ -1,0 +1,16 @@
+.pages h2 {
+  margin-bottom: 1rem;
+}
+
+.pages ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 3s;
+}
+
+.pages ul li:hover a,
+.pages ul li:hover svg {
+  color: #fff;
+}

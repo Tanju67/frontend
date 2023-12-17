@@ -1,0 +1,31 @@
+.page {
+  background-color: #e0f4ff;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+}
+
+.placesContainer {
+  flex: 2;
+  padding: 2rem 8rem;
+  overflow-y: scroll;
+}
+
+.noFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 970px) {
+  .page {
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .placesContainer {
+    padding: 2rem 1rem;
+  }
+}

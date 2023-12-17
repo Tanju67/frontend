@@ -1,0 +1,26 @@
+.placeBox {
+  flex: 1;
+}
+
+.placeBox img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.placeBox h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-bottom: 1rem;
+  color: #ec2a51;
+}
+
+.desc {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.address {
+  font-weight: 500;
+}
